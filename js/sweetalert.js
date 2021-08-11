@@ -1,80 +1,127 @@
-Swal.fire({
+const { value: nombre } = Swal.fire({
     title: "bienvenido",
-    // text:
-    // html:
-    icon: "happy",
+    text: "Hola, Tenemos que completar un pequeño formulario",
+
+    // html: 
+    // icon: "happy",
     // confirmButtonText:
     // footer:
     // width:
     // padding:
-    // background:
+    // background: "#000",
+
     // grow:
+
     // backdrop:
+
     // timer:
-    // timerProgressBar:
-    // toast:
+
+    timerProgressBar: 2000,
+
+    // toast: true,
+
     // position:
-    // allowOutsideClick:
+
+    allowOutsideClick: false,
+
     // allowEscapeKey:
+
     // allowEnterKey:
+
     // stopKeydownPropagation:
 
-    // input:
-    // inputPlaceholder:
-    // inputValue:
-    // inputOptions:
+
+
+    input: "text",
+
+    inputPlaceholder: "Coloca tu Nombre",
+
+    inputValue: "",
+
+    inputOptions: "",
+
+    // if (nombre = "yenko") {
+    //     alert("hola yenko");
+    // }
+
 
     //  customClass:
+
     // 	container:
+
     // 	popup:
+
     // 	header:
+
     // 	title:
+
     // 	closeButton:
+
     // 	icon:
+
     // 	image:
+
     // 	content:
-    // 	input:
+
+    // input: "Cual es tu nombre?",
+
     // 	actions:
+
     // 	confirmButton:
+
     // 	cancelButton:
+
     // 	footer:	
 
+
+
     // showConfirmButton:
+
     // confirmButtonColor:
+
     // confirmButtonAriaLabel:
 
+
+
     // showCancelButton:
+
     // cancelButtonText:
+
     // cancelButtonColor:
+
     // cancelButtonAriaLabel:
 
+
+
     // buttonsStyling:
+
     // showCloseButton:
+
     // closeButtonAriaLabel:
 
 
+
+
+
     // imageUrl:
+
     // imageWidth:
+
     // imageHeight:
+
     // imageAlt:
+
 });
 
-// Swal.fire({
-//     title: 'Este sera nuestro simulador',
-//     width: 600,
-//     padding: '3em',
-//     background: '#fff url(/images/trees.png)',
-//     backdrop: `
-// 	  rgba(0,0,123,0.4)
-// 	  url("/images/nyan-cat.gif")
-// 	  left top
-// 	  no-repeat
-// 	`
-// });
-let saludo = prompt("dame tu nombre")
-if (saludo == "yenko") {
-    Swal.fire({
 
-        title: "bienvenido" + " " + saludo
-    });
-}
+
+
+
+
+// let saludo = prompt("dame tu nombre")
+// if (saludo == "yenko") {
+//     Swal.fire({
+
+//         title: "bienvenido" + " " + saludo
+//     });
+// }

@@ -99,3 +99,33 @@ function topFunction() {
     document.body.scrollTop = 0; // For Safari
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
+
+
+
+// 5ta tarea
+
+
+
+function musica(animo, idioma, decada, edad, dia, lugar, genero) {
+    this.animo = animo;
+    this.idioma = idioma;
+    this.decada = decada;
+    this.edad = edad;
+    this.dia = dia;
+    this.lugar = lugar;
+    this.genero = genero;
+
+}
+
+var mymusica1 = new musica("alegre", "español", "80´s", "15 a 25", "bailable", "sentado", "reggaeton");
+var mymusica2 = new musica("deprimido", "ingles", "90´s", "15 a 25", "escuchable", "descansando", "rock");
+var mymusica3 = new musica("alegre", "ambos", "2000´s", "36 a mas", "cantable", "sentado", "salsa");
+var mymusica4 = new musica("aburrido", "español", "80´s", "26 a 35", "cantable", "caminando", "reggaeton");
+var mymusica5 = new musica("alegre", "ingles", "80´s", "36 a mas", "bailable", "descansando", "electronica");
+
+
+console.log(mymusica2);
+console.log(mymusica1);
+console.log(mymusica3);
+console.log(mymusica4);
+console.log(mymusica5);
